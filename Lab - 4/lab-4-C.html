@@ -1,0 +1,108 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<body>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab-4-C</title>
+	<style type="text/css">
+		th{
+			color: mediumseagreen;
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+		<div style="border:20px solid #1166AA">
+	<form style="border-color: rgb(6,208,208);" method="post">
+	<table align="center" style="margin-top: -8%;">
+		<div style="width: 100%;background-color: gray; text-align: center;height: 80px; padding-top: 40px;font-size: 30px; ">Create Account</div>
+		<br>
+		<tr>
+
+			<th>First Name*</th>
+			<th>Last Name</th>
+		</tr>
+		<tr>
+			<td><input type="text" required placeholder="enter your first name"></td>
+			<td><input type="text" placeholder="enter your last name"></td>
+		</tr>
+		<br>
+		<tr>
+			<th>Email*</th>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="Email" placeholder="enter your Email" required size="59%"></td>
+		</tr>
+		<br>
+		<tr>
+			<th>Password*</th>
+			<th>Confirm Password*</th>
+		</tr>
+		<tr>
+			<td><input type="Password" placeholder="enter your password" required></td>
+			<td><input type="password" placeholder="enter your password again" required></td>
+		</tr>
+		<br>
+		<tr>
+			<th>Gender:</th>
+			<th>Hobbies</th>
+		</tr>
+		<tr>
+			<td>
+				<input type="radio" name="Gender">Male
+				<input type="radio" name="Gender">Female
+			</td>
+			<td>
+				<input type="checkbox">Music
+				<input type="checkbox">Sports
+				<input type="checkbox">Travel
+				<input type="checkbox">Movies
+			</td>
+		</tr>
+		<br>
+		<tr>
+			<th>Source of Income</th>
+			<th>Income</th>
+		</tr>
+		<tr>
+			<td><select>
+				<option >Employed</option>
+				<option>Business</option>
+				<option>Others</option>
+			</select></td>
+			<td><input type="range" min="0" max="200000" ><button style="background-color:green; color: white;">20k</button></td>
+		</tr>
+		<br>
+		<tr>
+			<th>Upload Profile Picture</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td><input type="file"></td>
+			<td><input type="number" value="18"></td>
+		</tr>
+		<br>
+		<tr>
+			<th>Bio</th>
+		</tr>
+		<tr>
+			<td colspan="2"><textarea cols="59%" rows="4"></textarea></td>
+		</tr>
+		<br>
+	</table>
+		<div style="width: 99.3%;background-color: gray; text-align: right; padding-right: 10px; height: 50px; padding-top: 10px;padding-bottom: 10px;">
+			<button style="background-color: green; height: 30px; width: 70px;color: white;">Create</button>
+		</div>		
+	</form>
+</div>
+</body>
+</html>
